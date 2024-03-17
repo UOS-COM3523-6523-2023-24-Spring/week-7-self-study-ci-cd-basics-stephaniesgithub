@@ -25,3 +25,5 @@ This is because the behaviour of `complex_function` is non-deterministic (depend
 
 Such non-deterministic behaviour is not uncommon in real-world software system.
 How can we test such non-deterministic behaviour? Think about this. (No need to implement anything)
+
+My answer is creating a range and boundaries to use in testing to ensure that outputs fall within an ideal range to allow for different inputs into the function
